@@ -1,3 +1,5 @@
+package Concepts;
+
 public class BinarySearch {
 
     public void binarySearch(int key, int size, int[] sortedArray ){

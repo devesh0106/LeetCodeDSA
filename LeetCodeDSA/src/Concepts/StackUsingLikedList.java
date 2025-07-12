@@ -1,4 +1,6 @@
-// Node class for the linked list
+package Concepts;
+
+// Concepts.Node class for the linked list
 class Node {
     int data;
     Node next;

@@ -1,4 +1,4 @@
-package Queue;
+package Concepts.Queue;
 
 public class SimpleQueue {
 
@@ -14,10 +14,10 @@ public class SimpleQueue {
         this.rear = -1; //pointer to add elements
     }
 
-    //Adding Elements in Queue
+    //Adding Elements in Concepts.Concepts.Queue
     public void enqueue(int data){
         if(rear==maxSize-1){
-            System.out.println("Queue is Full");
+            System.out.println("Concepts.Concepts.Queue is Full");
         }
         else{
             rear++;
@@ -25,10 +25,10 @@ public class SimpleQueue {
         }
     }
 
-    //Deleting Elements from Queue
+    //Deleting Elements from Concepts.Concepts.Queue
     public int dequeue(){
         if(front>rear){
-            System.out.println("Queue is Empty");
+            System.out.println("Concepts.Concepts.Queue is Empty");
         }
         else {
             int data = queue[front];
@@ -41,7 +41,7 @@ public class SimpleQueue {
     //Peek
     public int peek(){
         if(front>rear){
-            System.out.println("Queue is Empty");
+            System.out.println("Concepts.Concepts.Queue is Empty");
         }
         else {
             return queue[front];
@@ -52,7 +52,7 @@ public class SimpleQueue {
     //Display
     public void display(){
         if(front>rear){
-            System.out.println("Queue is Empty, cant display");
+            System.out.println("Concepts.Concepts.Queue is Empty, cant display");
         }
         for(int i=front;i<=rear;i++){
             System.out.println("Data  inserted is "+queue[i]+"\n");
