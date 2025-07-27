@@ -1,4 +1,4 @@
-package Concepts;
+package Concepts.BinarySearch;
 
 public class BinarySearch {
 

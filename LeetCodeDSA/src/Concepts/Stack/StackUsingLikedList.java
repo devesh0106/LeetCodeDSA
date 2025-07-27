@@ -1,6 +1,6 @@
-package Concepts;
+package Concepts.Stack;
 
-// Concepts.Node class for the linked list
+// Concepts.Stack.Node class for the linked list
 class Node {
     int data;
     Node next;

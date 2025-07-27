@@ -1,4 +1,4 @@
-package Concepts;
+package Concepts.Stack;
 
 public class StackUsingArray {
 
