@@ -23,7 +23,6 @@ public class OptimisedTwoSum {
                 return res;
             }
             map.put(nums[i],i);
-
         }
         return new int[0];
     }
