@@ -1,6 +1,4 @@
-package Practice;
-
-import Concepts.TwoPointers.BruteForce_MoveZeroes;
+package Concepts.TwoPointers;
 
 import java.util.Arrays;
 
